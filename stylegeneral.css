@@ -3,18 +3,18 @@
     max-width: 400px;
     max-height: 400px;
     color: rgb(196, 205, 218);
-    background-color: rgb(26, 27, 52);
+    background-color: #19293d;
     box-sizing: border-box;
     padding: 10px;
     border-radius: 10%;
     font-family: 'Montserrat', sans-serif;
     overflow-y:scroll;
     top: 100px;
-    right: 350px;
+    left: 100px;
 }
 
 .popup h1{
-    color: white;
+    color: #3b8087;
     padding: 5%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -29,7 +29,7 @@
     position: absolute;
     max-width: 300px;
     max-height: 900px;
-    color: rgb(196, 205, 218);
+    color: rgb(235, 238, 243);
     backdrop-filter: blur(10px);
     box-sizing: border-box;
     padding: 10px;
@@ -55,9 +55,9 @@
     padding-top: 10%;
 }
 
-
-
-
+.guia a {
+    color: white;
+}
 
 .popup iframe{
     padding: 5%;
@@ -70,5 +70,4 @@
 
 #zinal{
     display: none;
-
 }
