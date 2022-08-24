@@ -1,0 +1,74 @@
+.popup{
+    position: absolute;
+    max-width: 400px;
+    max-height: 400px;
+    color: rgb(196, 205, 218);
+    background-color: rgb(26, 27, 52);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y:scroll;
+    top: 100px;
+    right: 350px;
+}
+
+.popup h1{
+    color: white;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.popup p{
+    color: rgb(86, 82, 126);
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.guia {
+    position: absolute;
+    max-width: 300px;
+    max-height: 900px;
+    color: rgb(196, 205, 218);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10%;
+    font-family: 'Montserrat', sans-serif;
+    top: 20px;
+    right: 20px;
+}
+
+.guia h1{
+    color: white;
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.guia ul {
+    color: rgb(86, 82, 126);
+    padding: 5%;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+.guia li {
+    padding-top: 10%;
+}
+
+
+
+
+
+.popup iframe{
+    padding: 5%;
+
+}
+
+#grand_mountet{
+    display: none;
+}
+
+#zinal{
+    display: none;
+
+}
